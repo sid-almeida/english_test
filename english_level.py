@@ -158,5 +158,5 @@ def main():
                                    file_name=f"resultado_teste_ingles_{aluno_nome}.png",
                                    mime="image/png")
 
-
+st.write('Made with ❤️ by [Sidnei Almeida](https://www.linkedin.com/in/saaelmeida93/)')
 main()
