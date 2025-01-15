@@ -32,7 +32,7 @@ st.markdown(
 
 # Logo da Igreja (adicione a imagem da logo na mesma pasta do código) centralizado
 logo = "https://github.com/sid-almeida/english_test/blob/main/ldslogo22.png?raw=true"
-st.image(logo, width=350)
+st.image(logo)
 
 
 # Inicializar estado da sessão para gerenciar respostas
