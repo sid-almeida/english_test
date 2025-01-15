@@ -19,7 +19,7 @@ st.markdown(
     """
     <style>
     .stApp {
-        background-image: url('https://github.com/sid-almeida/english_test/blob/main/englishbackground.png?raw=true');
+        background-image: url('https://github.com/sid-almeida/english_test/blob/main/ldslogo.png?raw=true');
         background-size: cover;
         background-position: center center;
         background-repeat: no-repeat;
