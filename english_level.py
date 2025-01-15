@@ -10,7 +10,7 @@ st.markdown(
     """
     <style>
     .stApp {
-        background-image: url('https://images.pexels.com/photos/1453488/pexels-photo-1453488.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+        background-image: url('https://github.com/sid-almeida/english_test/blob/main/englishbackground.png?raw=true');
         background-size: cover;
         background-position: center center;
         background-repeat: no-repeat;
@@ -22,7 +22,7 @@ st.markdown(
 )
 
 # Logo da Igreja (adicione a imagem da logo na mesma pasta do código) centralizado
-logo = "ldslogo.png"
+logo = "https://github.com/sid-almeida/english_test/blob/main/ldslogo.png?raw=true"
 st.image(logo)
 
 
