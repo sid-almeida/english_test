@@ -5,12 +5,21 @@ import io
 # Configurações de tema para o app
 st.set_page_config(page_title="Teste de Nível de Inglês", page_icon="🌍", layout="wide")
 
+st.markdown("""
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+        body {
+            font-family: 'Roboto', sans-serif;
+        }
+    </style>
+    """, unsafe_allow_html=True)
+
 # Código CSS para adicionar o background
 st.markdown(
     """
     <style>
     .stApp {
-        background-image: url('https://images.pexels.com/photos/1453488/pexels-photo-1453488.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+        background-image: url('https://github.com/sid-almeida/english_test/blob/main/englishbackground.png?raw=true');
         background-size: cover;
         background-position: center center;
         background-repeat: no-repeat;
@@ -22,7 +31,7 @@ st.markdown(
 )
 
 # Logo da Igreja (adicione a imagem da logo na mesma pasta do código) centralizado
-logo = "ldslogo.png"
+logo = "https://github.com/sid-almeida/english_test/blob/main/ldslogo22.png?raw=true"
 st.image(logo)
 
 
@@ -138,10 +147,10 @@ def main():
                 img = Image.new("RGB", (500, 300), color="white")
                 draw = ImageDraw.Draw(img)
                 font = ImageFont.load_default()
-                draw.text((20, 20), f"Resultado do Teste de Inglês", fill="black")
+                draw.text((20, 20), f"Resultado do Teste de Ingles", fill="black")
                 draw.text((20, 50), f"Nome: {aluno_nome}", fill="black")
-                draw.text((20, 80), f"Pontuação: {score}/18", fill="black")
-                draw.text((20, 110), f"Nível: {nivel}", fill="black")
+                draw.text((20, 80), f"Pontuacao: {score}/18", fill="black")
+                draw.text((20, 110), f"Nivel: {nivel}", fill="black")
                 buffer = io.BytesIO()
                 img.save(buffer, format="PNG")
                 st.image(img, caption="Resultado")
@@ -151,3 +160,5 @@ def main():
 
 
 main()
+
+st.write('Made with ❤️ by [Sidnei Almeida](https://www.linkedin.com/in/saaelmeida93/)')
