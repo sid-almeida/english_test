@@ -5,6 +5,15 @@ import io
 # Configurações de tema para o app
 st.set_page_config(page_title="Teste de Nível de Inglês", page_icon="🌍", layout="wide")
 
+st.markdown("""
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+        body {
+            font-family: 'Roboto', sans-serif;
+        }
+    </style>
+    """, unsafe_allow_html=True)
+
 # Código CSS para adicionar o background
 st.markdown(
     """
